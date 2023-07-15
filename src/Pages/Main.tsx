@@ -1,7 +1,10 @@
 import React from 'react'
+import { auth } from '../config/firebase'
 
 export const Main = () => {
   return (
-    <div>Main</div>
+    <div>Main
+        <p>{auth.currentUser?.displayName}</p>
+    </div>
   )
 }
