@@ -60,3 +60,21 @@
 .navbar .lin:hover {
   border-bottom: solid 10px white;
 }
+
+.navbar .user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.user p{
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+}
+
+.user img{
+  font-size: 15px;
+  border-radius: 50%;
+}
